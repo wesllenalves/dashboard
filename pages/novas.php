@@ -10,7 +10,7 @@
 						<hr id="hr-trabalho">
 						<div class="conteudo-baixo">
 						<img id="image-trabalho" src="img/default.png" style="width:40px;height: 40px;border-radius: 50%;background-color: white; border: 1px solid black;">
-						<a id="detalhes" href="detalhes">Detalhes</a>
+						<a id="detalhes" href="detalhes">Mais Detalhes</a>
 						<button class="btn btn-sucess" id="enviar-proposta">Enviar Proposta</button>
 						</div>
 </div>

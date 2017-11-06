@@ -6,7 +6,9 @@
 
 body {
     background-color: #f8f8f8;
+    
 }
+
 
 #wrapper {
     width: 100%;
@@ -25,6 +27,106 @@ body {
         margin-left: 0.5px;
         padding: 30px 30px 0 30px;
         border-left: 1px solid #e7e7e7;
+    }
+}
+
+@media(min-width:1025px){
+    
+    .trabalho{
+        background-color: red;
+        position: absolute;
+    }
+    
+    .trabalho .titulo{
+        position: relative;
+    }
+    .trabalho .data{
+        margin-left: 2000px;
+        position: relative;
+        
+        border: 1px solid black;
+    }
+    
+    #hr-trabalho {
+        background-color: black;
+        color: black;
+        border: 1px solid black;
+        position: relative;
+    }
+    
+    .conteudo-baixo{       
+       position: relative;
+       border: 1px solid black;
+    }
+    
+    .conteudo-baixo #image-trabalho{
+        margin-top: 5px;
+        border: 1px solid black;
+    }
+    
+    .conteudo-baixo #enviar-proposta{
+        margin-left: 58%;
+        margin-top: -58px;
+        position: relative;
+        border: 1px solid black;
+    }
+    .conteudo-baixo #detalhes{
+        margin-top: 15px;
+        margin-left: 350px;
+        position: absolute;
+        border: 1px solid black;
+    }
+    
+    /*pagina novas*/
+    
+    .footer{
+        margin-botton: 0px;
+    }
+    
+}
+
+
+@media(min-width:768px) and (max-width:1024px){
+    
+    /*pagina novas*/
+    .trabalho .data{
+        margin-left: 560px;
+    }
+    
+    #hr-trabalho {
+        background-color: black;
+        color: black;
+    }
+    
+    .conteudo-baixo{ 
+       margin-top: -100px;
+       position: absolute;
+       height: 45px;
+       padding: 0px;
+    }
+    
+    .conteudo-baixo #image-trabalho{
+        margin-top: 0;
+        margin-left: 1%;
+        position: relative;
+    }
+    
+    .conteudo-baixo #enviar-proposta{
+        margin-left: 60%;        
+        position: relative;
+        
+    }
+    .conteudo-baixo #detalhes{
+        margin-top: 15px;
+        margin-left: 5%;
+        position: relative;
+        padding: 0px;
+    }
+    
+    /*pagina novas*/
+    
+    .footer{
+        margin-botton: 0px;
     }
 }
 
